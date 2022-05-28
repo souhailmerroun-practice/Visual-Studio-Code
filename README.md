@@ -6,8 +6,8 @@
 }
 ```
 
-// Use 'postCreateCommand' to run commands after the container is created.
 ```
+// Use 'postCreateCommand' to run commands after the container is created.
 "postCreateCommand": "pip install pre-commit && pre-commit --version && pre-commit install",
 ```
 
