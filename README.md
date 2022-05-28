@@ -7,8 +7,7 @@
 ```
 
 ```
-// Use 'postCreateCommand' to run commands after the container is created.
-"postCreateCommand": "pip install pre-commit && pre-commit --version && pre-commit install && curl https://raw.githubusercontent.com/nektos/act/master/install.sh | sudo bash"
+"postCreateCommand": "pip install pre-commit && pre-commit --version && pre-commit install && curl https://raw.githubusercontent.com/nektos/act/master/install.sh | sudo bash && bin/act act --version"
 ```
 
 ```
