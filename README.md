@@ -1,6 +1,4 @@
-# Visual-Studio-Code
-
-## reactjs
+# Visual Studio Code - reactjs
 
 ```
 "settings": {
